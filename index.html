@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Bootstrap CSS CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="IMG/logo.png" alt="10px" height="130px" width="auto"><span>esar's Flower Shop</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+
+                   <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+          <div class="d-flex align-items-center gap-3">
+            <a href="#" class="cart">
+              <img src="IMG/add-to-cart.png" alt="cart">
+            </a>
+            <a href="#" class="user">
+              <img src="IMG/user.png" alt="user">
+            </a>
+          </div>
+        </div>
+   </nav>
+    </header>
+
+
+    <main>
+
+     <section class="home" id="home">
+        <video autoplay muted loop playsinline class="bg-video">
+          <source src="IMG/homebg,mp4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="home-info">
+          <h1>“Fresh & Elegant Flowers for Every Occasion”</h1>
+          <p>Trusted by our community for over 30 years, Cesar’s Flower Shop continues to deliver beauty, freshness, and heartfelt service.</p>
+          <a href="" class="btn">Shop Now</a>
+        </div>
+     </section>
+
+
+      <section class="feature">
+        <div class="feature-contain">
+          <div class="feature-info">
+            <div class="card-feature">
+                <div>
+                     <img src="IMG/boquetfeature.png" alt="10px" width="170px">
+                </div>
+
+                <div>
+                   <h2>Flower Bouquets</h2>
+                   <p>Gifts made with love</p>
+                   <a href="#product" class="btn">Shop All</a>
+               </div>
+ 
+            </div>
+
+
+             <div class="card-feature">
+                <div>
+                     <img src="IMG/potfeature.png" alt="10px" width="170px">
+                </div>
+
+                <div>
+                   <h2>Flower Pot</h2>
+                   <p>Flowers ready to enjoy</p>
+                    <a href="#product" class="btn">Shop All</a>
+               </div>
+ 
+            </div>
+
+              <div class="card-feature">
+                <div>
+                     <img src="IMG/basketfeature.png" alt="10px" width="170px">
+                </div>
+
+                <div>
+                   <h2>Flower Basket</h2>
+                   <p>Basket filled with blooms</p>
+                    <a href="#product" class="btn">Shop All</a>
+               </div>
+ 
+            </div>
+
+            <div class="card-feature">
+                <div>
+                     <img src="IMG/funeralfeature.png" alt="10px" width="170px">
+                </div>
+
+                <div>
+                   <h2>Flower Funeral</h2>
+                   <p>Flowers for solemn moments</p>
+                   <a href="#product" class="btn">Shop All</a>
+               </div>
+ 
+            </div>
+
+  
+       
+           
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about-info">
+          <div class="about-img">
+            <img src="IMG/events.png" alt="" >
+          </div>
+
+          <div class="about-contain">
+            <h2>"Cesar’s Flower Shop: Spreading Love Since 1991"</h2>
+            <p>Since 1991, Cesar’s Flower Shop has been crafting beautiful floral arrangements that celebrate life’s most meaningful moments.</p>
+            <p> From romantic bouquets to thoughtful sympathy flowers, we are dedicated to delivering fresh, hand-picked blooms that express love, gratitude, and care. With over three decades of experience, our passion for flowers continues to blossom—bringing smiles and heartfelt memories to every occasion.</p>
+
+             <div class="icons-about">
+              <div class="icon-item">
+                <img src="IMG/quality.png" alt="Quality Flowers" width="70">
+                <span>Quality Flowers</span>
+              </div>
+
+              <div class="icon-item">
+                <img src="IMG/customer.png" alt="Customer Care" width="70">
+                <span>Customer Care with a Personal Touch</span>
+              </div>
+
+              <div class="icon-item">
+                <img src="IMG/personal.png" alt="Personalized Arrangements" width="70">
+                <span>Personalized Arrangements</span>
+              </div>
+
+                 <div class="icon-item">
+                <img src="IMG/exp.png" alt="Personalized Arrangements" width="70">
+                <span>Over 30 Yrs. Experience</span>
+              </div>
+
+         </div>
+
+
+        </div>
+      </section>
+
+     <section class="product" id="product">
+  <div class="product-select">
+    <select>
+      <option id="all" value="all">All</option>
+      <option id="boquet" value="boquet">Boquet</option>
+      <option id="flowerpot" value="flowerpot">Flower Pot</option>
+      <option id="flowerspray" value="flowerspray">Flower Spray</option>
+      <option id="flowerbasket" value="flowerbasket">Flower Basket</option>
+      <option id="funeralflower" value="funeralflower">Funeral Flower</option>
+    </select>
+  </div>
+
+  <div class="slider">
+    <div class="slider-track">
+      <!-- Boquet -->
+      <div class="product-card">
+        <img src="IMG/img1.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+        <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img2.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img3.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+    
+      <div class="product-card">
+        <img src="IMG/img4.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img5.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img6.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img7.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img8.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img9.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img10.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img11.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+          <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img12.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+        
+      </div>
+      <div class="product-card">
+        <img src="IMG/img13.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img14.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+      <div class="product-card">
+        <img src="IMG/img15.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+      <!--Flower Pot-->
+
+            <div class="product-card">
+        <img src="IMG/img16.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+                 <div class="product-card">
+        <img src="IMG/img17.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+                 <div class="product-card">
+        <img src="IMG/img18.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+               <div class="product-card">
+        <img src="IMG/img19.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+            <!--Flower Basket-->
+      
+             <div class="product-card">
+        <img src="IMG/img20.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img21.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img22.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img23.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img24.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img25.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img26.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+          <!--Flower Spray-->
+
+                   <div class="product-card">
+        <img src="IMG/img27.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img28.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img29.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img30.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+      <!--Flower funeral-->
+
+                   <div class="product-card">
+        <img src="IMG/img31.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img32.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img33.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img34.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+              <div class="product-card">
+        <img src="IMG/img35.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img37.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+             <div class="product-card">
+        <img src="IMG/img38.png" alt="">
+        <hr>
+        <h3>9 pcs. White Rose Boquet</h3>
+        <p>P1000</p>
+                  <a href=""><img src="IMG/flower-shop.png" alt="" class="cartshop" ></a>
+      </div>
+
+    
+
+    </div>
+  </div>
+
+
+
+
+</section>
+
+
+<section class="contact-section">
+  <div class="contact-header">
+    <h2>Contact Us</h2>
+  </div>
+
+  <div class="contact-container">
+    <!-- Cesar Flower Shop Info -->
+    <div class="contact-info">
+      <h2>Cesar’s Flower Shop</h2>
+      <p><strong>📍 Address:</strong> 123 Main St, Manila</p>
+      <p><strong>📞 Phone:</strong> +63 912 345 6789</p>
+      <p><strong>✉️ Email:</strong> cesarflowershop@gmail.com</p>
+
+      <div class="social-icons">
+        <a href="#" class="fb"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="ig"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="tw"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Customize Your Flowers</h2>
+      <form id="flowerForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" required>
+
+        <label for="contact">Your Contact#</label>
+        <input type="number" id="contact" required>
+
+        <label for="type">Customization Type</label>
+        <select id="type" required>
+          <option value="">-- Select --</option>
+          <option value="Bouquet">Bouquet</option>
+          <option value="Wedding">Wedding</option>
+          <option value="Opening">Business Opening</option>
+          <option value="Funeral">Funeral</option>
+        </select>
+
+        <div id="descBox">
+          <label for="description">Customization Description</label>
+          <textarea id="description"></textarea>
+        </div>
+
+        <div id="condolenceBox" style="display:none;">
+          <label for="condolence">Condolence Message</label>
+          <textarea id="condolence"></textarea>
+        </div>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo + Description -->
+    <div class="footer-about">
+      <img src="IMG/logo.png" alt="Logo" class="footer-logo"><span>esar's Flower Shop</span>
+
+    </div>
+
+    <!-- Useful Pages -->
+    <div class="footer-links">
+      <h3>Useful Pages</h3>
+      <ul>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Policy</a></li>
+        <li><a href="#">Flash Sale</a></li>
+      </ul>
+    </div>
+
+    <!-- Help Center -->
+    <div class="footer-links">
+      <h3>Help Center</h3>
+      <ul>
+        <li><a href="#">Payments</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Product Returns</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Checkout</a></li>
+        <li><a href="#">Other Issues</a></li>
+      </ul>
+    </div>
+
+    <!-- Contacts -->
+    <div class="footer-contact">
+      <h3>Contacts</h3>
+      <p><i class="fas fa-map-marker-alt"></i> elorde cmpd infront of manila memorial parl brgy san antonio Sucat paranaque city</p>
+      <p><i class="fas fa-phone"></i> +639774811432</p>
+      <p><i class="fas fa-phone"></i> 0283-6111-34</p>
+      <p><i class="fas fa-envelope"></i> violetallantos@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div class="footer-bottom">
+    <ul class="footer-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Product</a></li>
+  
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+  
+  <!-- Bootstrap JS Bundle CDN (with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
